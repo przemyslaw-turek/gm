@@ -1,0 +1,71 @@
+homeassistant:
+ # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 1 
+  longitude: 1
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 191
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Warsaw
+ 
+# Show links to resources in log and frontend
+introduction:
+# Enables the frontend
+frontend:
+http:
+ # Uncomment this to add a password (recommended!)
+  # api_password: yaml
+ 
+# Checks for available updates
+updater:
+# Discover some devices automatically
+discovery:
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+# Enables support for tracking state changes over time.
+history:
+# View all events in a logbook
+logbook:
+# Track the sun
+sun:
+# Weather Prediction
+
+# platform: yr
+
+ 
+#MQTT
+mqtt:
+  broker: 192.168.1.105
+  port: 1883
+  client_id: home-assistant-1
+  keepalive: 60
+  username: homeassistant
+  password: yaml
+  protocol: 3.1
+ 
+light:
+
+  platform: mqtt
+  command_topic: "alarms/big_red_button"
+ 
+switch:
+
+  platform: mqtt
+  command_topic: "alarms/big_red_button"
+ 
+alarm_control_panel:
+
+  platform: mqtt
+  state_topic: "home-assistant/lottery/number"
+  command_topic: "home-assistant/lottery/number/set"
+
+#For reading random numbers
+sensor:
+
+  platform: mqtt
+  name: "Lottery"
+  state_topic: "home-assistant/lottery/number"
+  unit_of_measurement: "No."
