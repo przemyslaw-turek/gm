@@ -16,7 +16,8 @@
 <LI> Unpack file with Raspbian's image </LI>
 <LI>Format microSD card</LI>
 <LI><P>Use Rufus to install Raspbian on card. Use settings as in the picture below:</P>
-<P>(Button in red frame is used to select the path to Raspbian's image.)</P></LI> 
+<P>(Button in red frame is used to select the path to Raspbian's image.)</P>
+<P> <img src="https://github.com/przemyslaw-turek/gm/blob/dev/RaspberryPi/software/installation/pictureRufus.png" alt="Pictrue of Rufus" title=" " /></P></LI> 
 </OL>
 
 
