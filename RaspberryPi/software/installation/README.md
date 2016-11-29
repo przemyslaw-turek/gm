@@ -29,8 +29,14 @@
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/RaspberryPi/software/installation/pictureIP.png" alt="Pictrue" title=" " /></LI>
 <LI> Run Putty </LI> 
 <LI> In field Host Name - type Raspberry's IP address </LI>
-<LI> Press "Open" </LI>
+<LI><P> Press "Open" </P>
+<img src="https://github.com/przemyslaw-turek/gm/blob/dev/RaspberryPi/software/installation/picturePutty.png" alt="Pictrue" title=" " /></LI>
+<LI><P> Press "Yes" </P>
+<img src="https://github.com/przemyslaw-turek/gm/blob/dev/RaspberryPi/software/installation/picturePuttyAlert.png" alt="Pictrue" title=" " /></LI>
+<LI><P> Default login: "pi" </P>
+<P> Default password: "raspberry" </P>
 
+<P> To type commands (below) - use Putty's terminal and confirm by press "Enter" </P> </LI>
 
 </OL>
 
