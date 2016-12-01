@@ -48,35 +48,34 @@
 ## IV. Adding user and password
 
 <OL>
-<LI> Open Putty's terminal. Log in and type commands: </LI>
+<LI><P> Open Putty's terminal. Log in and type commands:</P> </LI>
 
 <P> sudo cp /etc/mosquitto/mosquitto.conf /etc/mosquitto/conf.d/ </P>
 
 <P> sudo editor /etc/mosquitto/conf.d/mosquitto.conf </P>
 
-<LI> Delete content of this file and write: </LI>
+<LI> <P>Delete content of this file and write:</P> </LI>
 
 <P> allow_anonymous false </P>
 <P> password_file /etc/mosquitto/passwd </P>
 
 	Save the content (Press: CTRL + X / Y / Enter )
 
-<LI> Write in the terminal: </LI>
+<LI>Write in the terminal: </LI>
 	(Insert your onw data in the fields 'USERNAME' and 'PASSWORD')
 
 <P> sudo mosquitto_passwd -c /etc/mosquitto/passwd USERNAME </P>
 
 	Program ask you to write your password twice.
 
-<LI> Checking connetion. </LI>
-<LI> 	Open second Putty's terminal. </LI>
+<LI><P> Check connetion. Open second Putty's terminal.</P> </LI>
 
-<LI> In first terminal type: </LI> 
+<LI><P> In first terminal type:</P> </LI> 
 	
 <P> sudo /etc/init.d/mosquitto start </P>
 <P> mosquitto_sub -t test -u USERNAME -P PASSWORD </P>
 
-<LI> In first terminal type: </LI>
+<LI><P> In second terminal type: </P></LI>
 
 <P> mosquitto_pub -t test -u USERNAME -P PASSWORD -m 'massage' </P>
 
