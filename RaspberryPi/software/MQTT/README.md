@@ -62,7 +62,7 @@
 	Save the content (Press: CTRL + X / Y / Enter )
 
 <LI>Write in the terminal: </LI>
-	(Insert your onw data in the fields 'USERNAME' and 'PASSWORD')
+	<P>(Insert your onw data in the fields 'USERNAME' and 'PASSWORD')</P>
 
 <P> sudo mosquitto_passwd -c /etc/mosquitto/passwd USERNAME </P>
 
@@ -81,7 +81,7 @@
 
 <P> mosquitto_pub -t test -u USERNAME -P WRONG_PASSWORD -m 'massage' </P>
 
-<LI> Now you should see only the first 'massage' in the first terminal. </LI>
+<LI><P> Now you should see only the first 'massage' in the first terminal.</P> </LI>
 
 
 </OL>
