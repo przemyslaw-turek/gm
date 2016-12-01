@@ -5,15 +5,15 @@
 <OL>
 <LI> Type in Putty's terminal: </LI>
 
-sudo apt-get update
+<P> sudo apt-get update </P>
 
-sudo apt-get upgrade -y
+<P> sudo apt-get upgrade -y </P>
 
-sudo pip3 install homeassistant
+<P> sudo pip3 install homeassistant </P>
 
-Command(below) runs file configuration.yaml and Raspberry's communication with Home Assistant
+<P> Command(below) runs file configuration.yaml and Raspberry's communication with Home Assistant </P>
 
-hass
+<P> hass </P>
 
 </OL>
 
