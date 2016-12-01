@@ -43,7 +43,7 @@
 <LI><P>  Type: </P> </LI>
       <P> cd / </P>
 	    <P> sudo pip3 install paho-mqtt</P>
-
+</OL>
 
 ## IV. Adding user and password
 
@@ -86,4 +86,6 @@
 
 
 </OL>
+
+
 
