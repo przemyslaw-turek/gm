@@ -43,3 +43,47 @@
 <LI><P>  Type: </P> </LI>
       <P> cd / </P>
 	    <P> sudo pip3 install paho-mqtt</P>
+
+
+## IV. Adding user and password
+
+<OL>
+<LI> Open Putty's terminal. Log in and type commands: </LI>
+
+<P> sudo cp /etc/mosquitto/mosquitto.conf /etc/mosquitto/conf.d/ </P>
+
+<P> sudo editor /etc/mosquitto/conf.d/mosquitto.conf </P>
+
+<LI> Delete content of this file and write: </LI>
+
+<P> allow_anonymous false </P>
+<P> password_file /etc/mosquitto/passwd </P>
+
+	Save the content (Press: CTRL + X / Y / Enter )
+
+<LI> Write in the terminal: </LI>
+	(Insert your onw data in the fields 'USERNAME' and 'PASSWORD')
+
+<P> sudo mosquitto_passwd -c /etc/mosquitto/passwd USERNAME </P>
+
+	Program ask you to write your password twice.
+
+<LI> Checking connetion. </LI>
+<LI> 	Open second Putty's terminal. </LI>
+
+<LI> In first terminal type: </LI> 
+	
+<P> sudo /etc/init.d/mosquitto start </P>
+<P> mosquitto_sub -t test -u USERNAME -P PASSWORD </P>
+
+<LI> In first terminal type: </LI>
+
+<P> mosquitto_pub -t test -u USERNAME -P PASSWORD -m 'massage' </P>
+
+<P> mosquitto_pub -t test -u USERNAME -P WRONG_PASSWORD -m 'massage' </P>
+
+<LI> Now you should see only the first 'massage' in the first terminal. </LI>
+
+
+</OL>
+
