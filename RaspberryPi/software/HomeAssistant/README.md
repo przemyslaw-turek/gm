@@ -23,7 +23,7 @@
 <P>	hass </P>
 <LI>Wait for communicate in Putty's terminal like this: </LI>
 
-<P> INFO:homeassistant.core:Bus:Handling <Event state_changed[L]:... </P>
+<P> INFO:homeassistant.core:Bus:Handling Event state_changed[L]:... </P>
 
 <LI> Type in the Web browser: </LI>
 <P>	http://ipaddress:8123 </P>
@@ -54,15 +54,15 @@
 It should looks like this picture (below): </LI>
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/RaspberryPi/software/HomeAssistant/nano2.png" alt="Pictrue" title=" " />
  
-
+ <LI> Change broker's IP for MQTT in configuration.yaml in the same what is using to Putty's communications  </LI>
 <LI> Press "Ctrl" + "X" </LI>
 <LI> Press "Y" </LI>
 <LI> Press "Enter" </LI>	
 <LI> Python script upload </LI>
-<LI> Type in Putty's terminal: </LI>
-	cd /home/pi/Desktop
+<LI> Type in Putty's terminal: 
 
-	nano buttonscript.py
+<P> cd /home/pi/Desktop </P>
+<P> nano buttonscript.py </P> </LI>
  
 <P> And now you should see picture like this (again): </P>
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/RaspberryPi/software/HomeAssistant/nano3.png" alt="Pictrue" title=" " /> 
