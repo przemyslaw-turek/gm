@@ -61,7 +61,7 @@
 
 	Save the content (Press: CTRL + X / Y / Enter )
 
-<LI>Write in the terminal: </LI>
+<LI><P>Write in the terminal: </P></LI>
 	<P>(Insert your onw data in the fields 'USERNAME' and 'PASSWORD')</P>
 
 <P> sudo mosquitto_passwd -c /etc/mosquitto/passwd USERNAME </P>
