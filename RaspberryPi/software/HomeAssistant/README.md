@@ -34,7 +34,7 @@
 <P> If everything works, you should see in the Web browser screen like this: </P>
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/RaspberryPi/software/HomeAssistant/homeassistant.png" alt="Pictrue" title=" " /> 
 
-<LI>Press "Ctrl" + "c" to close Raspberry's communication with Home Assistant</LI>
+<LI>Press "Ctrl" + "c" to close Raspberry's communication with Home Assistant (Sometimes, you have to press it twice) </LI>
 </OL>
 
 # Configuration of Home Assistant
@@ -84,6 +84,6 @@ It should looks like this picture (below): </LI>
 
 <P> python3 buttonscript.py </P>
 
+<LI> Open second Putty's terminal and type:</LI>
+
 <P> hass </P>
-	
-<LI> Verification of installation corectness </LI>
