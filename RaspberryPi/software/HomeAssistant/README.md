@@ -82,7 +82,7 @@ It should looks like this picture (below): </LI>
 <OL>
 <LI> Type in Putty's terminal </LI>
 
-<P> python buttonscript.py </P>
+<P> python3 buttonscript.py </P>
 
 <P> hass </P>
 	
