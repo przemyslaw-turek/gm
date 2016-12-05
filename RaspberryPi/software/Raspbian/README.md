@@ -34,9 +34,7 @@
 <LI><P> Press "Yes" </P>
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/RaspberryPi/software/Raspbian/picturePuttyAlert.png" alt="Pictrue" title=" " /></LI>
 <LI><P> Default login: "pi" </P>
-<P> Default password: "raspberry" </P>
-
-<P> To type commands (below) - use Putty's terminal and confirm by press "Enter" </P> </LI>
+<P> Default password: "raspberry" </P></LI>
 
 </OL>
 
