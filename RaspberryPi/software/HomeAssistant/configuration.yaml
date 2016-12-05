@@ -46,15 +46,14 @@ mqtt:
   password: yaml
   protocol: 3.1
  
-light:
-  platform: mqtt
-  command_topic: "alarms/big_red_button"
- 
-switch:
-  platform: mqtt
-  command_topic: "alarms/big_red_button"
  
 alarm_control_panel:
   platform: mqtt
   state_topic: "alarm/big_red_button"
   command_topic: "alarm/big_red_button/set"
+ 
+ 
+switch:
+  platform: mqtt
+  state_topic: "alarm/big_red_button"
+  command_topic: "alarms/big_red_button/set"
