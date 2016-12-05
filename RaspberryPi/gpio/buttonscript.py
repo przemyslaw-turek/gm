@@ -6,7 +6,7 @@ import time #Importing time to use delays
  
 GPIO.setmode(GPIO.BCM) #Deciding whether our GPIO pin numeration is BCM or BOARD
 GPIO.setup(21, GPIO.IN, pull_up_down=GPIO.PUD_UP) #Declaring 21 pin as INPUT with Pullup Resistor
-GPIO.setup(20, GPIO.IN, pull_up_down=GPIO.PUD_UP) #Declaring 21 pin as INPUT with Pullup Resistor
+GPIO.setup(20, GPIO.IN, pull_up_down=GPIO.PUD_UP) #Declaring 20 pin as INPUT with Pullup Resistor
  
  
  
@@ -26,12 +26,16 @@ client.connect("127.0.0.1", 1883, 60)
 # The activity after the interrupt on 21 pin
 def interrupt_big_red_button_ON(pin):
     client.publish('alarm/big_red_button', 'triggered'  )
+# The activity after the interrupt on 20 pin
 def interrupt_big_red_button_OFF(pin):  
     client.publish('alarm/big_red_button', 'disarmed'  )
      
-#Setup the interrupt on 21 pin with detection of falling edge
+#Setup the interrupt on 21 pin with detection of rising edge
 GPIO.add_event_detect(21, GPIO.RISING, callback = interrupt_big_red_button_ON)
+
+#Setup the interrupt on 21 pin with detection of rising edge
 GPIO.add_event_detect(20, GPIO.RISING, callback = interrupt_big_red_button_OFF)
+
 # Empty loop
 while True:    
     pass
