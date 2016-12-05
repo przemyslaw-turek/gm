@@ -40,9 +40,8 @@
 ## III. paho.mqtt installation
 
 <OL>
-<LI><P>  Type: </P> </LI>
-      <P> cd / </P>
-	    <P> sudo pip3 install paho-mqtt</P>
+<LI><P>  Type: </P> 
+ <P> sudo pip3 install paho-mqtt</P></LI>
 </OL>
 
 ## IV. Adding user and password
