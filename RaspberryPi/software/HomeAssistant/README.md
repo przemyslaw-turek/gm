@@ -58,7 +58,7 @@ It should looks like this picture (below): </LI>
 <LI> Press "Ctrl" + "X" </LI>
 <LI> Press "Y" </LI>
 <LI> Press "Enter" </LI>	
-<LI> Python script upload </LI>
+
 
 
 
