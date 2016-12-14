@@ -17,7 +17,7 @@ introduction:
 frontend:
 http:
 # Uncomment this to add a password (recommended!)
-  # api_password: yaml
+  # api_password: admin
  
 # Checks for available updates
 updater:
@@ -42,18 +42,44 @@ mqtt:
   port: 1883
   client_id: home-assistant-1
   keepalive: 60
-  username: homeassistant
-  password: yaml
+  username: jakub
+  password: admin
   protocol: 3.1
  
  
+sensor:
+  - platform: mqtt
+    name: "temperature"
+    state_topic: "temperature"
+    unit_of_measurement: "No."
+  - platform: mqtt
+    name: "humidity"
+    state_topic: "humidity"
+    unit_of_measurement: "No."
+ 
+ 
+ 
 alarm_control_panel:
-  platform: mqtt
-  state_topic: "alarm/big_red_button"
-  command_topic: "alarm/big_red_button/set"
+  - platform: mqtt
+    name: Button alarm
+    state_topic: "alarm/big_red_button"
+    command_topic: "alarm/big_red_button/set"
+    payload_disarm: "disarmed"
+  - platform: mqtt
+    name: "gas alarm"
+    state_topic: "MQ2"
+    command_topic: "MQ2"
+    payload_disarm: "disarmed"
+  - platform: mqtt
+    name: "motion"
+    state_topic: "MS"
+    command_topic: "MS"
+    payload_disarm: "disarmed"
  
  
-switch:
-  platform: mqtt
-  state_topic: "alarm/big_red_button"
-  command_topic: "alarms/big_red_button/set"
+ 
+binary_sensor:
+  - platform: rpi_gpio
+    ports:
+      21: Button alarm
+    invert_logic: TRUE
