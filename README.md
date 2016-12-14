@@ -24,6 +24,9 @@ The electronic part of the project is divided into three main parts:
 <LI> ESP8266	(slave controller) </LI>
 <LI> Sensors </LI>
 <P style="line-height: 1cm; ">
+
+</P>
+<P style="line-height: 1cm; ">
 In each of this parts you can find the manual.
 </P>
 
