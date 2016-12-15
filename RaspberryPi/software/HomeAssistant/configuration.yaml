@@ -83,3 +83,4 @@ binary_sensor:
     ports:
       21: Button alarm
     invert_logic: TRUE
+    bounce_time: 300
