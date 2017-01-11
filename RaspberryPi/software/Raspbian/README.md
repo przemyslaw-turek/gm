@@ -22,6 +22,7 @@
 
 
 <LI> Press "Start". </LI>
+<LI> Open your memory card and create new file "ssh" in main folder. Make sure that it hasn't got filename extension. </LI>
 <LI> Place the memory card in the Raspberry </LI>
 <LI> Connect Raspberry with router using ethernet cable </LI>
 <LI> Connect the supply to the Raspberry </LI>
