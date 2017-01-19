@@ -13,6 +13,7 @@ Here is the list of the sensors that we support:</P>
 <LI> PIR HC-SR501 Motion Sensor </LI>
 <LI> DS18B20 Temperature Sensor </LI>
 <LI> DHT11 Humidity & Temperature Sensor</LI>
+<LI> Reed relay</LI>
 </OL>
 
 ## II. Instalation
