@@ -76,11 +76,11 @@
 
 <LI><P> In second terminal type: </P></LI>
 
-<P> mosquitto_pub -t test -u USERNAME -P PASSWORD -m 'massage' </P>
+<P> mosquitto_pub -t test -u USERNAME -P PASSWORD -m 'message' </P>
 
-<P> mosquitto_pub -t test -u USERNAME -P WRONG_PASSWORD -m 'massage' </P>
+<P> mosquitto_pub -t test -u USERNAME -P WRONG_PASSWORD -m 'message' </P>
 
-<LI><P> Now you should see only the first 'massage' in the first terminal.</P> </LI>
+<LI><P> Now you should see only the first 'message' in the first terminal.</P> </LI>
 
 
 </OL>
