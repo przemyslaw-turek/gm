@@ -15,4 +15,6 @@
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/sensors/mq2/MQ-2.jpg" alt="mq2"><br>
 5. Resistor(4.7kΩ)<br>
 6. GPIO 14(D5)
+7. Wiring diagram
+<img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/sensors/mq2/mq2.bmp" alt="mq2"><br>
 
