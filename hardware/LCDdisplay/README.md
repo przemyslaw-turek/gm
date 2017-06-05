@@ -3,7 +3,7 @@
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/LCDdisplay/lcdDISPLAY.bmp" alt="Pictrue" title=" " />
  
 <h2> 2. Components</h2>
-<ol
+<ol>
 <li>ESP8266 Lolin </li>
 <li>Voltage converter(SPF-02259)</li>
 <li>I2C converter(LCD-02352)</li>
