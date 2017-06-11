@@ -78,7 +78,7 @@
 <text x="44.2" y="10.7" size="1.778" layer="25" rot="R90">3V3</text>
 <text x="52.1" y="11.6" size="1.778" layer="25">IO5</text>
 <text x="50.8" y="10.7" size="1.778" layer="25" rot="R90">IO4</text>
-<text x="41.4" y="12.2" size="1.778" layer="25" rot="R180">IO13</text>
+<text x="41.4" y="12.2" size="1.778" layer="25" rot="R180">IO14</text>
 <text x="24.3" y="10.8" size="1.778" layer="25" rot="R90">IO15</text>
 <text x="14.4" y="5.7" size="1.778" layer="25" rot="R180">IO3</text>
 <text x="11.3" y="16.7" size="1.778" layer="25">IO1</text>
