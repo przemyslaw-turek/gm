@@ -64,17 +64,17 @@ alarm_control_panel:
     name: Button alarm
     state_topic: "alarm/big_red_button"
     command_topic: "alarm/big_red_button/set"
-    payload_disarm: "disarmed"
+    payload_disarm: "armed_home"
   - platform: mqtt
     name: "gas alarm"
     state_topic: "MQ2"
     command_topic: "MQ2"
-    payload_disarm: "disarmed"
+    payload_disarm: "armed_home"
   - platform: mqtt
     name: "motion"
     state_topic: "MS"
     command_topic: "MS"
-    payload_disarm: "disarmed"
+    payload_disarm: "armed_home"
  
  
  
