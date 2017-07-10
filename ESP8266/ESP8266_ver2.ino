@@ -213,7 +213,7 @@ void loop()
     #ifdef debug
     Serial.println("Motion detected");
     #endif
-    client.publish(outTopic3,"Motion detected");
+    client.publish(outTopic3,"triggered");
   }
   
   prev_state_MS=state_MS;
@@ -228,7 +228,7 @@ void loop()
     #ifdef debug
     Serial.println("ALARM");
     #endif
-    client.publish(outTopic4,"GASALARM");
+    client.publish(outTopic4,"triggered");
   }
   
   prev_state_MQ2=state_MQ2;
