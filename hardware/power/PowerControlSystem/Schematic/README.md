@@ -1,7 +1,7 @@
 
 Power control system
 
-<big><b>I version</b></big>
+<h1><b>I version</b></h1>
 
 1. Connection diagram(1)
 
