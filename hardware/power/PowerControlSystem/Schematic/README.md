@@ -1,5 +1,7 @@
 
 Power control system
+<b><font size="16" color="kolor">I version</font></b>
+
 1. Connection diagram(1)
 
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/power/PowerControlSystem/Schematic/basicVersion1.jpg" alt="Diagram">
@@ -17,8 +19,8 @@ Power control system
 
 
 
-
-2.	Connection diagram(2)
+<b><font size="16" color="kolor">II version</font></b>
+1.	Connection diagram(2)
 
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/power/PowerControlSystem/Schematic/basicVersion2.jpg" alt="Diagram">
 
