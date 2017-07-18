@@ -14,10 +14,12 @@ Power control system
  
 8. Resistor(100 Ohm)
 
+3.Connection diagram(3)
 
 
 
-1.	Connection diagram(2)
+
+2.	Connection diagram(2)
 <img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/basicVersion2.jpg" alt="Pictrue" title=" " /> 
 2. Components
 1. ESP8266 Lolin					9.   Diode(4007)
