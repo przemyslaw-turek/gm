@@ -2,8 +2,8 @@
 Power control system
 1. Connection diagram(1)
 
-<img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/sensors/dht11/dht11.bmp" alt="Diagram">
-<img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/power/PowerControlSystem/Schematic/d.bmp" alt="Diagram">
+
+<img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/power/PowerControlSystem/Schematic/basicVersion1.jpg" alt="Diagram">
  
 2. Components
 1. ESP8266 Lolin					9.   Diode(4007)
