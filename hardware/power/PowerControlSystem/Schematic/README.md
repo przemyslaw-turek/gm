@@ -1,6 +1,7 @@
 
 Power control system
-<b><font size="30" color="red">I version</font></b>
+
+<b><font color="red">I version</font></b>
 
 1. Connection diagram(1)
 
