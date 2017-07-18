@@ -1,7 +1,7 @@
 <html>
 <h1>#Smoke detector and flammable gases MQ-2 sensor </h1>
 <li>Wiring diagram</li>
-<img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/sensors/motion/PIR-HC-SR501.bmp" alt="Diagram">
+<img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/sensors/mq2/mq2.bmp" alt="Diagram">
 <li>	The necessary elements</li><br>
       1.	ESP 12e nodemcu v3
    
