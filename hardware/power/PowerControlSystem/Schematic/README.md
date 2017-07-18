@@ -51,6 +51,16 @@
 
 <img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/power/PowerControlSystem/Schematic/basic_version3.jpg" alt="Diagram">
 
+<li>Components</li>
+
+1. ESP8266 Lolin					
+2. Power bank(5V)					
+3. USB cable						
+4. Power supply			
+5. Relay(3.3-5V)
+6. Screw connection
+7. Electrolytic capacitor(47 uF)
+
 
 <b>IV version</b>
 
