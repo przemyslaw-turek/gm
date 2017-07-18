@@ -1,7 +1,7 @@
 Microprocessor relay system
 1. Connection diagram
 
- <img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/MicroprocessorRelaySystem/Schematic/MicroprocessorRelaySystem.jpg" alt="Pictrue" title=" " /> 
+ <img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/power/MicroprocessorRelaySystem/Schematic/MicroprocessorRelaySystem.jpg" alt="Pictrue" title=" " /> 
 2. Components
 1. ESP8266 Lolin
  
