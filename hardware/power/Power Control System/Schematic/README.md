@@ -14,8 +14,6 @@ Power control system
  
 8. Resistor(100 Ohm)
 
-3.Connection diagram(3)
-
 
 
 
@@ -32,10 +30,11 @@ Power control system
 8. Resistor( 100 Ohm)
 
 
+3.Connection diagram(3)
+<img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/basic_version3.jpg" alt="Pictrue" title=" " />
 
 
 
-
-Extended version
+4. Extended version
 <img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/extendedVersion1.jpg" alt="Pictrue" title=" " />
  
