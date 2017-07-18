@@ -11,5 +11,5 @@
       2. DHT11<br>
       <img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/sensors/dht11/dht11.jpg" alt="DHT"><br>
      3. Resistor 4.7kΩ <br>
-      4. GPIO4(D2)  <br>
+      4. GPIO5(D1)  <br>
       5. Voltage source(5V)
