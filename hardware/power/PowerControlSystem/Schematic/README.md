@@ -1,5 +1,5 @@
 
-<h1><b>       Power control system   </b></h1>
+<u><p align="center"><h1><b>Power control system</b></h1></p></u>
 
 <b>I version</b>
 
