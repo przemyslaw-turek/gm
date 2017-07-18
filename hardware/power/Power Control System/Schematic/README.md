@@ -1,7 +1,7 @@
 
 Power control system
 1. Connection diagram(1)
-<img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/basicVersion1(1).jpg" alt="Pictrue" title=" " />
+<img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/basicVersion1 (1).jpg" alt="Pictrue" title=" " />
  
 2. Components
 1. ESP8266 Lolin					9.   Diode(4007)
@@ -18,7 +18,7 @@ Power control system
 
 
 2.	Connection diagram(2)
-<img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/basicVersion2(1).jpg" alt="Pictrue" title=" " /> 
+<img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/basicVersion2 (1).jpg" alt="Pictrue" title=" " /> 
 2. Components
 1. ESP8266 Lolin					9.   Diode(4007)
 2. Power bank(5V)					10. Resistor(2200  Ohm)
@@ -31,10 +31,10 @@ Power control system
 
 
 3.Connection diagram(3)
-<img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/basic_version3(1).jpg" alt="Pictrue" title=" " />
+<img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/basic_version3 (1).jpg" alt="Pictrue" title=" " />
 
 
 
 4. Extended version
-<img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/extendedVersion1(1).jpg" alt="Pictrue" title=" " />
+<img src="https://github.com/przemyslaw-turek/gm/tree/dev/hardware/power/Power%20Control%20System/Schematic/extendedVersion1 (1).jpg" alt="Pictrue" title=" " />
  
