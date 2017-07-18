@@ -1,6 +1,6 @@
 
 Power control system
-<b><font size="16" color="kolor">I version</font></b>
+<b><font size="30" color="red">I version</font></b>
 
 1. Connection diagram(1)
 
@@ -37,7 +37,7 @@ Power control system
 
 3.Connection diagram(3)
 
-<img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/power/PowerControlSystem/Schematic/basic_version3.jpg alt="Diagram">
+<img src="https://github.com/przemyslaw-turek/gm/blob/dev/hardware/power/PowerControlSystem/Schematic/basic_version3.jpg" alt="Diagram">
 
 4. Extended version
 
