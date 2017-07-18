@@ -12,6 +12,15 @@ Then in Tools->Board->Boards Manager install esp8266 package<br>
 <br>
 To add libraries in Arduino IDE: Sketch -> Include library ->Manage libraries type the library you need and add it.<br><br>
 
+Libraries used in project: <br>
+-Adafruit<br>
+-DHT<br>
+-DHT_U<br>
+-ESP8266WiFi<br>
+-PubSubClient<br>
+<br>
+It is not possible to add Adafruit library to libraries in Arduino. It is need to download this library direct from Github repository. 
+
 To upload program in Arduino  in Tools you need to choose Board (depends on ESP version, for example Generic ESP module), upload speed 115200.<br><br>
 
 To check your connection with raspberry pi (broker) upload code from ESP8266_wifi_mqtt.ino.  <br>
