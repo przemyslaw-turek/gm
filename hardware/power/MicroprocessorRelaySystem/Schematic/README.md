@@ -11,7 +11,7 @@
 6. Resistor 
 7.Screw connection
  
- VCC and GND for 3,3V voltage
+ VCC and GND for 3,3V voltage;
  AC- Sinusoidal power supply
 
 
